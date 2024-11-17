@@ -1,0 +1,110 @@
+body {
+   
+}
+
+h1 {
+    position: sticky;
+    margin-left: 29%;
+    margin-top: 20%;
+    color: #235e9e;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+   max-width: 330px;
+   margin: 55px auto;
+   margin-top: 100px;
+   padding: 20px;
+   height: 400px;
+   background-color:rgba(255, 255, 255, 0.514);
+   border:1px solid rgb(119, 151, 238);
+   border-radius: 7px;
+   transition: border-color 0.7s ease-in-out;
+}
+.container:focus {
+    border-color: #235a96;
+    outline: none;
+
+} 
+
+input {
+    color: black;
+    width: 93%;
+    padding: 9px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid #7694e2f5;
+    transition: border-color 0.7s ease-in-out;
+
+}
+
+input:focus {
+    border-color: #235a96;
+    outline: none;
+
+} 
+
+input:hover {
+    background-color: #f6faff;
+
+}
+
+
+button {
+    color: white;
+    width: 99%;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px blue;
+    padding: 9px;
+    border: none;
+    background-color: rgb(90, 90, 211);
+    cursor: pointer;
+    outline: none; /* Remove default outline */
+    transition: background-color 10s;
+
+}
+
+button:focus {
+    background-color: #0056b3; /* Darker shade when focused */
+    box-shadow: 0 0 5px #0169d8; /* Glow effect */
+}
+
+
+img {
+    position: absolute;
+    top: 110px;
+    left: 646px;
+    width: 70px;
+
+}
+
+p {
+    position: relative;
+    left: 64px;
+    top: 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a {
+    color: #0056b3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(99, 93, 93);
+    text-decoration: underline;
+}
+
+h4 {
+    position: absolute;
+    left: 560px;
+    top: 460px;
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #53565a;
+}
+
