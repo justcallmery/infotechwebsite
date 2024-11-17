@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <link rel="stylesheet" href="style.css">
+    <title>infotech.site</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>ITE CN-4636</h1>
+
+        <input type="text" id="userInput" placeholder="Name" required>
+        <input type="text" id="userInput" placeholder="Number or gmail" required>
+        
+        <input type="password" id="pwd" placeholder="Password" required>
+        <input type="checkbox"  id="chk" 
+        style="
+        position: absolute;
+        top: 345px;
+        left: 165px;
+        "
+        >
+        <script>
+            const pwd = document.getElementById("pwd");
+            const chk = document.getElementById("chk");
+
+            chk.onchange = function(e) {
+                pwd.type = chk.checked ? "text" : "password";
+            };
+        </script>
+        <button id="nextPageButton" disabled>SIGN IN</button>
+        <input type="checkbox"
+        style="
+        position: absolute;
+        top: 453px;
+        right:170px;
+        "
+        > <style></style>
+        <p>Agreement of rules & regulations</p>
+        
+        <div>
+           <h4>Don't have an account yet? 
+           <a href="signup.html">Sign up.</a></h4>
+        </div>
+        
+        
+
+    <script>
+        const inputField = document.getElementById('userInput');
+        const nextPageButton = document.getElementById('nextPageButton');
+
+        inputField.addEventListener('input', function() {
+            nextPageButton.disabled = !inputField.value.trim();
+        });
+
+     
+        nextPageButton.addEventListener('click', function() {
+            if (inputField.value.trim()) {
+                window.location.href = 'index2.html'; 
+            }
+        });
+        
+    </script>
+    
+</div>
+
+
+
+
+
+<img src="c:\Users\PC\Downloads\download.png" alt="" srcset="">
+    
+</body>
+</html>
